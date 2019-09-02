@@ -11,7 +11,7 @@ export class Tab2Page {
   constructor(public dataLocal: DataLocalService) {}
 
   enviarCorreo() {
-    
+    this.dataLocal.enviarCorreo();
   }
 
   abrirRegistro( registro) {
