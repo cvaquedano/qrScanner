@@ -1,3 +1,14 @@
 <ion-content>
 
+<ion-slides [options]="swiperOpts" mode="md" pager="md" scrollbar="md">
+  <ion-slide>
+    <ion-button
+    expand="full"
+    fill="outline"
+    size="large"
+    shape="round"
+    (click)="scan()">ScanCode</ion-button>
+  </ion-slide>
+</ion-slides>
+
 </ion-content>
